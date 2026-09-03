@@ -107,42 +107,7 @@ class Program
             Console.WriteLine("Ket qua cach 2: " + ketQua2);
             Console.WriteLine();
         }
-
-        // Phân tích lý thuyết
-        Console.WriteLine("==============================================");
-        Console.WriteLine("PHAN TICH LY THUYET");
-        Console.WriteLine("==============================================");
-
-        Console.WriteLine();
-        Console.WriteLine("1. Vi sao phuong phap Horner lai nhanh hon?");
-        Console.WriteLine(
-            "Phuong phap thong thuong phai tinh rieng tung luy thua x^i."
-        );
-        Console.WriteLine(
-            "Vi vay so phep nhan tang theo n^2, do phuc tap la O(n^2)."
-        );
-        Console.WriteLine(
-            "Horner chi can n phep nhan va n phep cong, do phuc tap la O(n)."
-        );
-
-        Console.WriteLine();
-        Console.WriteLine("2. So phep cong va nhan trong tung cach?");
-        Console.WriteLine(
-            "Cach 1: n phep cong va n(n+3)/2 phep nhan."
-        );
-        Console.WriteLine(
-            "Cach 2 Horner: n phep cong va n phep nhan."
-        );
-
-        Console.WriteLine();
-        Console.WriteLine("3. Ket qua thuc nghiem co khop ly thuyet khong?");
-        Console.WriteLine(
-            "Co. Khi n tang, Horner nhanh hon ro ret so voi cach thong thuong."
-        );
-        Console.WriteLine(
-            "Ket qua thuc nghiem phu hop voi phan tich ly thuyet O(n^2) va O(n)."
-        );
-
+        
         Console.WriteLine();
         Console.WriteLine("Nhan phim bat ky de ket thuc...");
         Console.ReadKey();
